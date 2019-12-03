@@ -1,0 +1,23 @@
+.login {
+    .slider {
+        .swiper-pagination {
+            text-align: left;
+            position: relative;
+            margin-top: 38px;
+            span.swiper-pagination-bullet {
+                width: 10px;
+                height: 10px;
+                border: 2px solid white !important;
+                background-color: transparent;
+                opacity: 0.2 !important;
+                transition-duration: .3s;
+                margin: 0;
+                margin-right: 10px;
+                &.swiper-pagination-bullet-active {
+                    background-color: white !important;
+                    opacity: 1 !important;
+                }
+            }
+        }
+    }
+}

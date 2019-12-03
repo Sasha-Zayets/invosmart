@@ -1,0 +1,99 @@
+.login {
+    display: flex;
+    background-color: white;
+    min-height: 100vh;
+    &-title {
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 34px;
+        color: #2E2F31;
+        text-align: center;
+        margin-top: 0;
+    }
+    &-input {
+        margin-bottom: 57px;
+        &--last {
+            margin-bottom: 26px;
+        }
+    }
+    &-forward-link {
+        display: block;
+        max-width: 338px;
+        margin: 0 auto;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 12px;
+        text-align: right;
+        text-decoration: none;
+        color: #2EA4DE;
+        margin-bottom: 40px;
+    }
+    
+    &-btn {
+        border-radius: 6px;
+        width: 360px;
+        height: 60px;
+        margin: 0 auto 20px auto;
+        &--auth-google {
+            background-color: white;
+            margin-bottom: 42px;
+            padding: 0;
+            .icon-google {
+                width: 24px;
+                height: 24px;
+                margin-right: 10px;
+            }
+            background-color: transparent;
+            border: 1px solid #2EA4DE;
+            color: #30A5E0;
+            padding: 0;
+            transition-duration: .3s;
+            &:hover {
+                background-color: transparent;
+                color: #2197D1;
+                border: 1px solid #2197D1;
+            }
+            &:active {
+                background-color: transparent;
+                color: #67C6F4;
+                border: 1px solid #67C6F4;
+            }
+        }
+    }
+    .registration {
+        margin-top: 0;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+        &-text {
+            color: #2E2F31;
+        }
+        &-link {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 16px;
+            color: #2EA4DE;
+            text-decoration: none;
+            position: relative;
+        }
+    }
+}
+
+.auth-registration {
+    .login-input {
+        margin-bottom: 28px;
+        &--last {
+           // margin-bottom: 58px;
+        }
+    }
+    .login-btn.login-btn--auth-google {
+        margin-bottom: 20px;
+        background-color: transparent;
+        color: #2197D1;
+        padding: 0;
+        &:hover, &:active {
+            background-color: transparent;
+        }
+    }
+}
